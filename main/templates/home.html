@@ -1,0 +1,130 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricvalle</title>
+    <link rel="shortcut icon" href="{% static 'home/img/icone.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="principal" id="home">
+        <nav>
+            <h2 class="ricvalle">Ric<span>valle</span></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#footer-contacts">Fale conosco</a></li>
+            </ul>
+
+        </nav>
+        <div class="quem-somos">
+            <h1 >Quem <span>somos</span></h1>
+            <h3><br>Um grupo especializado na área florestal  com inteiro <br>comprometimento  com o meio ambiente e política de qualidade. </h3>
+    
+        </div>
+    </div>
+
+   <section  id="sobre">
+
+    <img src="{% static 'home/img/PAC.png' %}">
+    <div>
+        <h2>Trabalhamos com base na PAC.</h2>
+    
+        <p><br>PAC: Pesquisa de alinhamento por cliente.
+            <br>Fazemos constantes pesquisas voltadas para diretrizes, política de qualidade, normas, segurança e tecnologia
+             de cada cliente, visando sempre a conformidade e melhorias satisfatórias a cada trabalho que nos for demandado.
+        </p>
+    </div>
+
+   </section>
+
+   <section class="servicos" id="servicos">
+    
+   <h3>É comprovado que quando somos orientados e traçamos metas que contém símbolos gráficos e estatísticas, 
+    resguardamos mais a nossa integridade física. Com base nestes pilares, oferecemos os serviços a seguir:
+    </h3>
+   
+    <div class="card">
+        <h2>Manejo de animais</h2>
+        <img src="{% static 'home/img/manejo.jpg' %}">
+    </div>
+
+   
+
+    <div class="card">
+        <h2>Reparos em cercas e porteiras</h2>
+        <img src="{% static 'home/img/cerca.jpg' %}" alt="foto de Manejo de animais">
+    </div>
+    
+    <div class="card">
+        <h2>Desobstrução de árvores caídas na estrada</h2>
+        <img src="{% static 'home/img/arvore-caida.jpg' %}" alt="imagem de arvore caída">
+    </div>
+    
+    <div class="card">
+        <h2>Salvoguardar madeira deixada em tentativa de furto</h2>
+        <img src="{% static 'home/img/seguranca.webp' %}" alt="imagem de segurança">
+    </div>
+    
+    <div class="card">
+        <h2> Remoção de resíduos e entulhos </h2>
+        <img src="{% static 'home/img/residuos.jpg' %}" alt="imagem de resíduos">
+    </div>
+
+    <div class="card">
+        <h2>Jardinagem</h2>
+        <img src="{% static 'home/img/jardinagem.jpg' %}" alt="imagem de jardineiro">
+    </div>
+
+    <div class="card">
+        <h2>Alvenaria</h2>
+        <img src="{% static 'home/img/alvenaria.jpg' %}" alt="imagem de pedreiro de alvenaria">
+    </div>
+
+
+    <div class="card">
+        <h2>Serviço de faxina</h2>
+        <img src="{% static 'home/img/faxina.jpg' %}" alt="imagem de faxina">
+    </div>
+    
+    
+    
+
+    <article><p>Disponibilizamos nossos serviços de forma que venha somar  junto ao cliente. 
+    Temos o diferencial em fazer manejo de animais para fora do projeto com brevidade e restauração de cerca após o manejo.
+     Remoção de árvores da estrada, remoção de entulhos e sucatas descartadas no projeto, monitoramento preventivo ,apoio em caso de incêndios
+      e qualquer outro serviço segundo o cliente. Objetivo: prestar serviços emergenciais em expansão para o vale.</p>
+
+    </article>
+
+   </section>
+   
+   <footer>
+        <div id="footer-contacts">
+
+            <a href="https://whatsa.me/5512974044094/?t=Ol%C3%A1" class="footer-link" id="whatsapp">
+                <i class="fa-brands fa-whatsapp"></i>
+
+            </a>
+            <a href="https://whatsa.me/5512974044094/?t=Ol%C3%A1">(12)97404-4094</a>
+
+            <a href="mailto:ricvalle23@gmail.com" class="footer-link" id="e-mail">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+                
+            <a href="mailto:ricvalle23@gmail.com">ricvalle23@gmail.com</a>
+                
+
+        </div>
+
+   </footer>
+
+</body>
+</html>
